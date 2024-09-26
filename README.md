@@ -18,8 +18,8 @@ This project implements a self-playing Tic-Tac-Toe agent using various reinforce
 ## Project Structure
 - `Model.py`: Contains the main model classes for Evolutionary Strategy, SARSA, and Q-Learning
 - `Agents.py`: Defines the agent classes including RuleBaseAgent, SarsaMLPAgent, and QLearningMLPAgent
-- `Game.py`: Implements the Tic-Tac-Toe game logic (not provided in the snippet)
-- `Utils.py`: Utility functions for feature construction and other helper methods (not provided in the snippet)
+- `Game.py`: Implements the Tic-Tac-Toe game logic 
+- `Utils.py`: Utility functions for feature construction and other helper methods
 - `Player.py`: Defines the Player enum, representing the two players in the game
 
 ### Player Enum
@@ -35,17 +35,5 @@ class Player(IntEnum):
 
 This enum is used throughout the project to represent the two players, with PLAYER1 having a value of 1 and PLAYER2 having a value of -1. This representation allows for easy manipulation of the game state and simplifies win condition checks.
 
-## Getting Started
-[Add instructions on how to set up and run your project]
-
-## Results and Analysis
-[Add a brief summary of your findings, comparing the performance of different algorithms]
-
-## Future Work
-[Mention any planned improvements or extensions to the project]
-
-## Contributors
-[Your Name]
-
 ## License
-[Specify the license under which you're releasing this project]
+This project was created as part of a university course assignment at Dalhousie University. It is primarily for educational purposes and demonstration of reinforcement learning concepts
