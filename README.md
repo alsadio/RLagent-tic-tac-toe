@@ -1,7 +1,7 @@
-# Tic-Tac-Toe Reinforcement Learning Project
+# Tic-Tac-Toe Reinforcement Learning agent
 
 ## Overview
-This project implements a self-playing Tic-Tac-Toe agent using various reinforcement learning techniques. The goal is to create an AI that can learn to play Tic-Tac-Toe effectively through different learning strategies.
+This project implements a self-learning Tic-Tac-Toe agent using various reinforcement learning techniques. The goal is to create an AI that can learn to play Tic-Tac-Toe effectively through different learning strategies.
 
 ## Implemented Algorithms
 1. **Evolutionary Strategy**: An approach that evolves a population of agents over time, selecting the best performers to create new generations.
@@ -9,7 +9,7 @@ This project implements a self-playing Tic-Tac-Toe agent using various reinforce
 3. **Q-Learning**: An off-policy TD control algorithm that learns the value of an action in a particular state.
 
 ## Key Features
-- Implementation of multiple reinforcement learning algorithms for comparison
+- Implementation of multiple reinforcement learning algorithms
 - Custom Tic-Tac-Toe environment for agent training
 - Visualization of learning progress and agent performance
 - Flexible agent classes allowing easy experimentation with hyperparameters
